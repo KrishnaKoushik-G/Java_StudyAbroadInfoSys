@@ -33,7 +33,7 @@ public class StudyAbroadInfoSystem {
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
                 // Draw the background image
-                ImageIcon backgroundImageIcon = new ImageIcon("path_to_img");
+                ImageIcon backgroundImageIcon = new ImageIcon("img/univ7.jpg");
                 Image backgroundImage = backgroundImageIcon.getImage();
                 g.drawImage(backgroundImage, 0, 0, getWidth(), getHeight(), this);
             }
@@ -168,7 +168,7 @@ public class StudyAbroadInfoSystem {
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
                 // Draw the background image
-                ImageIcon backgroundImageIcon = new ImageIcon("path_to_img");
+                ImageIcon backgroundImageIcon = new ImageIcon("img/univ7.jpg");
                 Image backgroundImage = backgroundImageIcon.getImage();
                 g.drawImage(backgroundImage, 0, 0, getWidth(), getHeight(), this);
             }
